@@ -8,7 +8,7 @@ describe("PDF typography", () => {
     expect(doc.getFont().encoding).toBe("Identity-H");
     expect(pdf).toContain("/FontFile2");
     expect(pdf).toContain("/ToUnicode");
-    expect(pdf).toContain("/BaseFont/ResumeSans");
+    expect(pdf).toMatch(/\/BaseFont\s+\/ResumeSans/);
     expect(doc.getCharSpace()).toBe(0);
   });
 
