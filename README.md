@@ -55,7 +55,9 @@ O resultado deve mostrar termos presentes, como SEO, e termos ausentes, como Ana
 
 ## Publicação e evidências
 
-A publicação ainda está pendente na data desta documentação. O endereço público será acrescentado após a publicação, sem confundir o link de prévia com o site publicado.
+Aplicação publicada: https://proof-backed-resume-fit.lovable.app/
+
+O endereço acima foi fornecido pelo autor após a publicação. Os testes manuais de análise e exportação devem ser realizados também nesse endereço.
 
 Para evidenciar o funcionamento, usar o exemplo fictício, verificar a análise, editar o currículo e exportar o PDF. Capturas ainda não foram adicionadas; nunca usar currículos reais de terceiros nas evidências públicas.
 
