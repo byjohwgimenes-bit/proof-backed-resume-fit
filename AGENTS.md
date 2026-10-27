@@ -8,3 +8,4 @@
 > Commits you push to the connected branch sync back to Lovable and show up in
 > the editor, so keep the branch in a working state.
 <!-- LOVABLE:END -->
+- Resume analysis and PDF generation are pure client-side modules in src/lib (ats.ts, pdf.ts); why: resume data must never leave the browser.
