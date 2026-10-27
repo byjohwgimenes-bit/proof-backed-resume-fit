@@ -189,7 +189,7 @@ function Index() {
   );
 }
 
-function Field({ id, label, value, onChange, error }: { id: string; label: string; value: string; onChange: (v: string) => void; error?: string }) {
+function Field({ id, label, value, onChange, error }: { id: string; label: string; value: string; onChange: (v: string) => void; error?: string | undefined }) {
   return (
     <div>
       <label htmlFor={id} className="block font-semibold">{label}</label>
